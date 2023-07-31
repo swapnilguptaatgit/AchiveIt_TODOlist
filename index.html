@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' type='text/css' ' media="screen" href="style.css"/>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Orbitron&display=swap" rel="stylesheet">
+    <title>Todo List App</title>
+  </head>
+
+  <body>
+    
+    <div class="wrapper">
+        <h1 class="head">
+            Achieve It
+        </h1>
+        <br>
+        <h6 class="head">
+            Your personal To-Do list
+        </h6>
+        <br>
+
+      <div class="task-input">
+        <ion-icon name="create-outline"></ion-icon>
+        <input type="text" placeholder="Add a Aim + Enter" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all"><b>Status</b></span>
+          <span id="pending"><b>Active</b></span>
+          <span class="done" id="completed"><b>Achieved</b></span>
+        </div>
+        <button class="clear-btn"><b>Reset</b></button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
